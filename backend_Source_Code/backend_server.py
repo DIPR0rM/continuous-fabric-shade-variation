@@ -815,3 +815,12 @@ async def startup_event():
         mqtt_client.loop_start()
     else:
         print("\n[FATAL ERROR] Check AWS ENDPOINT!\n")
+
+
+# ==========================================
+# THE GLOBAL STATIC MOUNTER
+# ==========================================
+import os
+from fastapi.staticfiles import StaticFiles
+
+app.mount("/", StaticFiles(directory=os.path.dirname(os.path.abspath(__file__)), html=True), name='static')
