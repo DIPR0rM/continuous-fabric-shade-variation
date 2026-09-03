@@ -1,7 +1,7 @@
-# continuous-fabric-shade-variation
+# Continuous-fabric-shade-variation
 An IoT-integrated continuous shade monitoring system utilizing an AS7341 multi-spectral sensor array and ESP32 edge computing. It evaluates real-time CIELAB and CMC (2:1) colorimetric tolerances via an AWS backend that can challenge conventional expensive spectrophotometer achieving tight accuracy. 
 
-# IoT-Integrated Continuous Shade Monitoring System
+# Development and Validation of a Cost-Effective Real-Time IoT-Enabled Multispectral Colorimetric System for Shade Variation Evaluation of In-Motion Textile Fabric
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Hardware: ESP32](https://img.shields.io/badge/Hardware-ESP32-blue.svg)]()
