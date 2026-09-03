@@ -63,7 +63,9 @@ For comprehensive setup and operation instructions, please refer to the `docs/` 
 
 This repository supports a manuscript currently under peer review. If you utilize this code, cloud architecture, or mathematical model in your research prior to official publication, please cite this repository directly:
 
-> **[Dipro Roy     |    MD Sujon Hasan    |    Mohammad Noor Nabi     |    Dr. Shaikh MD Mominul Alam], "Evaluation of an IoT device for continuous fabric shade variation detection," *Under Review* at [will be updated], 2026.**
+> **[Dipro Roy     |    MD Sujon Hasan    |    Mohammad Noor Nabi     |    Dr. Shaikh MD Mominul Alam], "Development and Validation of a Cost-Effective Real-Time IoT-Enabled Multispectral
+Colorimetric System for Shade Variation Evaluation of In-Motion Textile Fabric
+," *Under Review* at [Heliyon], 2026.**
 > *(Note: The official DOI and citation details will be updated here upon publication.)*
 
 All firmware, cloud architectural code, and mathematical models are provided open-source to ensure full scientific reproducibility. 
