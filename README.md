@@ -44,7 +44,7 @@ $$L_{penalized}^* = L_{raw}^* \times \left(1 - \frac{NIR_{measured}}{NIR_{baseli
 | :--- | :--- |
 | **`firmware/`** | ESP32 C++ source code (`hardware_data_logger.ino`), FreeRTOS tasks, and multiplexer driver files. |
 | **`backend_Source Code/`** | Python FastAPI server, MQTT handlers, and core mathematical algorithms (`backend_server.py`). |
-| **`client_app_frontend/`** | 60-FPS Web Dashboard assets (`index.html`, `desktop_dashboard_app.py`, WebSockets, Chart.js configurations). The production build is actively hosted at di-pro.online.<br><br>**Guest Access for Reviewers:**<br>Username: `DIPROrM`<br>Password: `Dipr0` |
+| **`client_app_frontend/`** | 60-FPS Web Dashboard assets (`index.html`, `desktop_dashboard_app.py`, WebSockets, Chart.js configurations). The production build is actively hosted at www.di-pro.online.<br><br>**Guest Access for Reviewers:**<br>Username: `guest`<br>Password: `GuestPass` |
 | **`docs/`** | Detailed operational calibration manuals. |
 
 ---
