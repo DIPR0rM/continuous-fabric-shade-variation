@@ -166,9 +166,10 @@ LABColor calculateLAB(uint16_t f1, uint16_t f2, uint16_t f3, uint16_t f4, uint16
   float n7 = constrain(f7 * fast_multiplier, 0.0f, 1.0f);
   float n8 = constrain(f8 * fast_multiplier, 0.0f, 1.0f);
 
-  float X = (n1 * 0.14f) + (n2 * 0.35f) + (n3 * 0.15f) + (n4 * 0.05f) + (n5 * 0.35f) + (n6 * 0.85f) + (n7 * 0.60f) + (n8 * 0.05f);
-  float Y = (n1 * 0.01f) + (n2 * 0.04f) + (n3 * 0.15f) + (n4 * 0.50f) + (n5 * 0.95f) + (n6 * 0.85f) + (n7 * 0.30f) + (n8 * 0.02f);
-  float Z = (n1 * 0.65f) + (n2 * 1.80f) + (n3 * 1.00f) + (n4 * 0.15f) + (n5 * 0.02f) + (n6 * 0.00f) + (n7 * 0.00f) + (n8 * 0.00f);
+  float X = (n1 * 0.1406f) + (n2 * 0.3867f) + (n3 * 0.0805f) + (n4 * 0.0714f) + (n5 * 0.6161f) + (n6 * 1.0967f) + (n7 * 0.5401f) + (n8 * 0.0387f);
+  float Y = (n1 * 0.0145f) + (n2 * 0.0747f) + (n3 * 0.2536f) + (n4 * 0.6857f) + (n5 * 0.9991f) + (n6 * 0.7220f) + (n7 * 0.2150f) + (n8 * 0.0147f);
+  float Z = (n1 * 0.6568f) + (n2 * 2.0273f) + (n3 * 0.7721f) + (n4 * 0.0822f) + (n5 * 0.0011f) + (n6 * 0.0003f) + (n7 * 0.0000f) + (n8 * 0.0000f);
+  
   X *= 50.0f; Y *= 50.0f; Z *= 50.0f;
   
   // OPTIMIZATION: Updated to CIE 1964 10° Standard Observer for Textiles (dCIELab: D65-10)
